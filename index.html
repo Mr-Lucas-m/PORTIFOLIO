@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Adicionar particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Efeito de partículas -->
+    <div id="particles-js"></div>
+
+    <!-- Efeito de neblina -->
+    <div class="neblina"></div>
+
+    <!-- Botão "Voltar ao Topo" -->
+    <button id="back-to-top" title="Voltar ao Topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <header>
+        <div class="container">
+            <h1>Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#soft-skills">Soft Skills</a></li>
+                    <li><a href="#hard-skills">Hard Skills</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Lucas Marques e sou um Desenvolvedor de Software. Aqui você pode conhecer um pouco mais sobre minhas habilidades e competências.</p>
+        </div>
+    </section>
+
+    <section id="soft-skills" class="section">
+        <div class="container">
+            <h2>Soft Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fas fa-comments"></i>
+                    <p>Comunicação</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-users"></i>
+                    <p>Trabalho em Equipe</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-lightbulb"></i>
+                    <p>Resolução de Problemas</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-sync-alt"></i>
+                    <p>Adaptabilidade</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-flag"></i>
+                    <p>Liderança</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-heart"></i>
+                    <p>Empatia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hard-skills" class="section">
+        <div class="container">
+            <h2>Hard Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-bolt"></i>
+                    <p>FastAPI</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-git"></i>
+                    <p>Git</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>AjusteFAST</h3>
+                    <p>Desenvolvi uma automação que extrai dados de extratos bancários em PDF, filtra e organiza as informações, e exporta os resultados para uma planilha. A solução agiliza a análise financeira, reduz erros manuais e melhora a eficiência no gerenciamento de dados.</p>
+                    <a href="https://github.com/Mr-Lucas-m/AjusteFAST" target="_blank" class="btn">Ver no GitHub</a>
+                    <!-- <a href="https://projeto-1.com" target="_blank" class="btn">Ver Projeto</a> -->
+                </div>
+                <!-- <div class="project">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto. O que ele faz, tecnologias usadas, etc.</p>
+                    <a href="https://github.com/seu-usuario/projeto-2" target="_blank" class="btn">Ver no GitHub</a>
+                    <a href="https://projeto-2.com" target="_blank" class="btn">Ver Projeto</a>
+                </div> -->
+                <!-- Adicione mais projetos aqui -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Mr-Lucas-m/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/lucas-marques-dev-back-end/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 Lucas Mr da Rocha. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Carrega o arquivo JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
